@@ -1,0 +1,378 @@
+{
+  "blocks": {
+    "MECH-STRAINER": {
+      "handle": "B4A3",
+      "ownerHandle": "B4A2",
+      "layer": "0",
+      "name": "MECH-STRAINER",
+      "type": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "MECH-STRAINER",
+      "xrefPath": "",
+      "entities": [
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4A5",
+          "ownerHandle": "B4A2",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": -0.9114583333333476,
+            "y": -11,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "?",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": -1.42e-14,
+            "y": -11,
+            "z": 0
+          },
+          "prompt": "Asset ID",
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4A6",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -1.42e-14,
+            "y": -16.5,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": -1.42e-14,
+            "y": -16.5,
+            "z": 0
+          },
+          "prompt": "Display label",
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -4,
+              "y": -4,
+              "z": 0
+            },
+            {
+              "x": -4,
+              "y": 4,
+              "z": 0
+            }
+          ],
+          "handle": "B4A7",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -4,
+              "y": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "y": 4,
+              "z": 0
+            }
+          ],
+          "handle": "B4A8",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 4,
+              "y": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "y": -4,
+              "z": 0
+            }
+          ],
+          "handle": "B4A9",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 4,
+              "y": -4,
+              "z": 0
+            },
+            {
+              "x": -4,
+              "y": -4,
+              "z": 0
+            }
+          ],
+          "handle": "B4AA",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -4,
+              "y": -4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "y": 4,
+              "z": 0
+            }
+          ],
+          "handle": "B4AB",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "lineType": "MP_DASH-2"
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4AC",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 27.30426285987057,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "STRAINER",
+          "prompt": "",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4AD",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.90285441672955,
+            "y": 19.72765692144885,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "prompt": "FLOW RATE / CAPACITY",
+          "tag": "CAPACITY",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4AE",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 23.60730555564351,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "prompt": "MANUFACTURER AND/OR MODEL",
+          "tag": "MODEL",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4AF",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.71552790495723,
+            "y": 31.10252085107371,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "MECHANICAL",
+          "prompt": "",
+          "tag": "GROUP",
+          "invisible": true,
+          "constant": true,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "B4B0",
+          "ownerHandle": "B4A2",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.903,
+            "y": 15.91903353456827,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "PIPE SIZE",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -4,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": -8,
+              "y": 5e-16,
+              "z": 0
+            }
+          ],
+          "handle": "B4B1",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 8,
+              "y": 0,
+              "z": 0
+            }
+          ],
+          "handle": "B4B2",
+          "ownerHandle": "B4A2",
+          "layer": "0"
+        }
+      ]
+    },
+  },
+  "entities": [
+    {
+      "type": "INSERT",
+      "handle": "EA1E",
+      "ownerHandle": "1F",
+      "layer": "SITE",
+      "name": "MECH-STRAINER",
+      "position": {
+        "x": 279.6867669759975,
+        "y": 361.8746825058308,
+        "z": 0
+      },
+      "entities": [
+        {
+          "type": "ATTRIB",
+          "layer": "0",
+          "text": "Strainer1",
+          "tag": "TYPE",
+        },
+        {
+          "type": "ATTRIB",
+          "layer": "0",
+          "text": "65681",
+          "tag": "ASSETID",
+        },
+      ]
+    }
+  ]
+}

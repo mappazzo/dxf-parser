@@ -85,7 +85,25 @@ describe('Parser', function() {
 
 		var expected = fs.readFileSync(path.join(__dirname, 'data', 'blocks2.expected.json'), {encoding: 'utf8'});
 		dxf.should.eql(JSON.parse(expected));
-	});
+  });
+  
+  it('should parse BLOCKS with ATTRIB', function () {
+    var file = fs.readFileSync(path.join(__dirname, 'data', 'blocksWithAttrib.dxf'), 'utf8');
+
+    var parser = new DxfParser();
+    var dxf;
+    try {
+      dxf = parser.parseSync(file);
+      fs.writeFileSync(path.join(__dirname, 'data', 'blocksWithAttrib.actual.json'), JSON.stringify(dxf, null, 2));
+    } catch (err) {
+      should.not.exist(err);
+    }
+    should.exist(dxf);
+
+
+    // var expected = fs.readFileSync(path.join(__dirname, 'data', 'blocksWithAttrib.expected.json'), { encoding: 'utf8' });
+    // dxf.should.eql(JSON.parse(expected));
+  });
     
     it('should parse POLYLINES', function() {
 		
