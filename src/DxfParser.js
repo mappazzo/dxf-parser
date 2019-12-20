@@ -33,7 +33,7 @@ function registerDefaultEntityHandlers(dxfParser) {
 	dxfParser.registerEntityHandler(Face);
 	dxfParser.registerEntityHandler(Arc);
 	dxfParser.registerEntityHandler(AttDef);
-	dxfParser.registerEntityHandler(Attrib);
+	//dxfParser.registerEntityHandler(Attrib);
 	dxfParser.registerEntityHandler(Circle);
 	dxfParser.registerEntityHandler(Dimension);
 	dxfParser.registerEntityHandler(Ellipse);
@@ -224,62 +224,6 @@ DxfParser.prototype._parse = function(dxfString) {
 		}
 		return blocks;
 	};
-
-  var parseInsert = function () {
-    var entity;
-    entity = { type: curr.value };
-    curr = scanner.next();
-    while (curr !== 'EOF') {
-      if (curr.code === 0) break;
-
-      switch (curr.code) {
-        case 2:
-          entity.name = curr.value;
-          break;
-        case 41:
-          entity.xScale = curr.value;
-          break;
-        case 42:
-          entity.yScale = curr.value;
-          break;
-        case 43:
-          entity.zScale = curr.value;
-          break;
-        case 10:
-          entity.position = helpers.parsePoint(scanner);
-          break;
-        case 50:
-          entity.rotation = curr.value;
-          break;
-        case 70:
-          entity.columnCount = curr.value;
-          break;
-        case 71:
-          entity.rowCount = curr.value;
-          break;
-        case 44:
-          entity.columnSpacing = curr.value;
-          break;
-        case 45:
-          entity.rowSpacing = curr.value;
-          break;
-        case 210:
-          entity.extrusionDirection = helpers.parsePoint(scanner);
-          break;
-        case 0:
-          if (curr.value == 'ENDSEQ')
-            break;
-          entity.entities = parseEntities(true);
-          break;
-        default: // check common entity attributes
-          helpers.checkCommonEntityProperties(entity, curr);
-          break;
-      }
-      curr = scanner.next();
-    }
-
-    return entity;
-  };
 
 	var parseBlock = function() {
 		var block = {};
@@ -714,7 +658,7 @@ DxfParser.prototype._parse = function(dxfString) {
 
 		var endingOnValue = forBlock ? 'ENDBLK' : 'ENDSEC';
 
-    // if the current entity is a BLOCK this evaluates false
+		// if the current entity is a BLOCK this evaluates false
 		if (!forBlock) {  
 			curr = scanner.next();
 		}
@@ -724,80 +668,27 @@ DxfParser.prototype._parse = function(dxfString) {
 				if(curr.value === endingOnValue) {
 					break;
 				}
-
-        var entity;
-        if(curr.value === 'INSERT') {
-          entity = parseInsert();
-        } else {
-          var handler = self._entityHandlers[curr.value];
-          if(handler != null) {
-            log.debug(curr.value + ' {');
-            entity = handler.parseEntity(scanner, curr);
-            curr = scanner.lastReadGroup;
-            log.debug('}');
-          } else {
-            log.warn('Unhandled entity ' + curr.value);
-            curr = scanner.next();
-            continue;
-          }
-          ensureHandle(entity);
-        }
-				
-				// if(curr.value === 'ATTRIB') {
-        //   if(forBlock) {
-            entities.push(entity);
-          } else {
-      //       var lastEntity = entities[entities.length - 1];
-      //       if (typeof lastEntity !== 'undefined') {
-      //         if (!lastEntity.attribs) lastEntity.attribs = [];
-      //         lastEntity.attribs.push(entity);
-      //       }
-      //     }
-			// 	} else {
-			// 	  entities.push(entity);
-			// 	}
-			// } else {
+				var entity;
+				var handler = self._entityHandlers[curr.value];
+				if(handler != null) {
+					log.debug(curr.value + ' {');
+					entity = handler.parseEntity(scanner, curr);
+					curr = scanner.lastReadGroup;
+					log.debug('}');
+				} else {
+					log.warn('Unhandled entity ' + curr.value);
+					curr = scanner.next();
+					continue;
+				}
+				ensureHandle(entity);
+				entities.push(entity);
+          	} else {
 				// ignored lines from unsupported entity
 				curr = scanner.next();
 			}
 		}
 		if(endingOnValue == 'ENDSEC') curr = scanner.next(); // swallow up ENDSEC, but not ENDBLK
 		return entities;
-  };
-
-  // Parse attribs to INSERT object
-  var parseAttribs = function () {
-    var entities = [];
-
-    var endingOnValue = 'ENDSEQ';
-
-    while (true) {
-
-      if (curr.code === 0) {
-        if (curr.value === endingOnValue) {
-          break;
-        }
-        var entity;
-        var handler = self._entityHandlers[curr.value];
-        if (handler != null) {
-          log.debug(curr.value + ' {');
-          entity = handler.parseEntity(scanner, curr);
-          curr = scanner.lastReadGroup;
-          log.debug('}');
-        } else {
-          log.warn('Unhandled entity ' + curr.value);
-          curr = scanner.next();
-          continue;
-        }
-        ensureHandle(entity);
-        entities.push(entity);
-      } else {
-        // ignored lines from unsupported entity
-        curr = scanner.next();
-      }
-    }
-    if (endingOnValue == 'ENDSEQ') curr = scanner.next(); // swallow up ENDSEQ
-    return entities;
   };
 
 	/**
