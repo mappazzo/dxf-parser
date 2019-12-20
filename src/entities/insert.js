@@ -46,6 +46,11 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
             case 210:
                 entity.extrusionDirection = helpers.parsePoint(scanner);
                 break;
+            case 0:
+              if (curr.value == 'ENDSEQ')
+                break;
+              block.entities = parseEntities(true);
+              break;
             default: // check common entity attributes
                 helpers.checkCommonEntityProperties(entity, curr);
                 break;

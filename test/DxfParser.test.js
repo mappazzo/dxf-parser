@@ -6,68 +6,68 @@ import approvals from 'approvals';
 
 describe('Parser', function() {
 
-	it('should parse the dxf header variables into an object', function(done) {
-		var file = fs.createReadStream(__dirname + '/data/header.dxf', { encoding: 'utf8' });
-		var parser = new DxfParser();
+	// it('should parse the dxf header variables into an object', function(done) {
+	// 	var file = fs.createReadStream(__dirname + '/data/header.dxf', { encoding: 'utf8' });
+	// 	var parser = new DxfParser();
 
-		parser.parseStream(file, function(err, result) {
-			should.not.exist(err);
-			var expected = fs.readFileSync(__dirname + '/data/header.parser.out', {encoding: 'utf8'});
-			result.should.eql(JSON.parse(expected));
-			done();
-		});
-	});
+	// 	parser.parseStream(file, function(err, result) {
+	// 		should.not.exist(err);
+	// 		var expected = fs.readFileSync(__dirname + '/data/header.parser.out', {encoding: 'utf8'});
+	// 		result.should.eql(JSON.parse(expected));
+	// 		done();
+	// 	});
+	// });
 
-	var tables;
+	// var tables;
 
-	it('should parse the tables section without error', function(done) {
-		var file = fs.createReadStream(__dirname + '/data/tables.dxf', { encoding: 'utf8' });
-		var parser = new DxfParser();
+	// it('should parse the tables section without error', function(done) {
+	// 	var file = fs.createReadStream(__dirname + '/data/tables.dxf', { encoding: 'utf8' });
+	// 	var parser = new DxfParser();
 
-		parser.parseStream(file, function(err, result) {
-			var errMsg = err ? err.stack : undefined;
-			should.not.exist(err, errMsg);
-			tables = result.tables;
-			fs.writeFileSync(path.join(__dirname, 'data', 'layer-table.actual.json'), JSON.stringify(tables.layer, null, 2));
-			fs.writeFileSync(path.join(__dirname, 'data', 'ltype-table.actual.json'), JSON.stringify(tables.lineType, null, 2));
-            fs.writeFileSync(path.join(__dirname, 'data', 'viewport-table.actual.json'), JSON.stringify(tables.viewPort, null, 2));
-			done();
-		});
-	});
+	// 	parser.parseStream(file, function(err, result) {
+	// 		var errMsg = err ? err.stack : undefined;
+	// 		should.not.exist(err, errMsg);
+	// 		tables = result.tables;
+	// 		fs.writeFileSync(path.join(__dirname, 'data', 'layer-table.actual.json'), JSON.stringify(tables.layer, null, 2));
+	// 		fs.writeFileSync(path.join(__dirname, 'data', 'ltype-table.actual.json'), JSON.stringify(tables.lineType, null, 2));
+  //           fs.writeFileSync(path.join(__dirname, 'data', 'viewport-table.actual.json'), JSON.stringify(tables.viewPort, null, 2));
+	// 		done();
+	// 	});
+	// });
 
-	it('should parse the dxf layers', function() {
-		should.exist(tables);
-		tables.should.have.property('layer');
+	// it('should parse the dxf layers', function() {
+	// 	should.exist(tables);
+	// 	tables.should.have.property('layer');
 
-        var expectedOutputFilePath = path.join(__dirname,'data','layer-table.expected.json');
+  //       var expectedOutputFilePath = path.join(__dirname,'data','layer-table.expected.json');
         
-		var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
-		tables.layer.should.eql(JSON.parse(expected));
-	});
+	// 	var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
+	// 	tables.layer.should.eql(JSON.parse(expected));
+	// });
 
-	it('should parse the dxf ltype table', function() {
-		should.exist(tables);
-		tables.should.have.property('lineType');
+	// it('should parse the dxf ltype table', function() {
+	// 	should.exist(tables);
+	// 	tables.should.have.property('lineType');
 
-        var expectedOutputFilePath = path.join(__dirname,'data','ltype-table.expected.json');
+  //       var expectedOutputFilePath = path.join(__dirname,'data','ltype-table.expected.json');
 
-		var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
-		tables.lineType.should.eql(JSON.parse(expected));
-	});
+	// 	var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
+	// 	tables.lineType.should.eql(JSON.parse(expected));
+	// });
     
-    it('should parse the dxf viewPort table', function() {
-		should.exist(tables);
-		tables.should.have.property('viewPort');
+  // it('should parse the dxf viewPort table', function() {
+	// 	should.exist(tables);
+	// 	tables.should.have.property('viewPort');
 
-        var expectedOutputFilePath = path.join(__dirname,'data','viewport-table.expected.json');
+  //       var expectedOutputFilePath = path.join(__dirname,'data','viewport-table.expected.json');
 
-		var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
-		tables.viewPort.should.eql(JSON.parse(expected));
-	});
-
-	it('should parse a complex BLOCKS section', function() {
-		verifyDxf(path.join(__dirname, 'data', 'blocks.dxf'))
-	});
+	// 	var expected = fs.readFileSync(expectedOutputFilePath, {encoding: 'utf8'});
+	// 	tables.viewPort.should.eql(JSON.parse(expected));
+	// });
+ 
+	// it('should parse a complex BLOCKS section', function() {
+	// 	verifyDxf(path.join(__dirname, 'data', 'blocks.dxf'))
+	// });
 	
 	it('should parse a simple BLOCKS section', function() {
 		var file = fs.readFileSync(path.join(__dirname, 'data', 'blocks2.dxf'), 'utf8');
