@@ -1,5 +1,6 @@
 
 import * as helpers from '../ParseHelpers'
+import attribHandler from './attrib.js'
 
 export default function EntityParser() {}
 
@@ -61,4 +62,29 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
     return entity;
 };
 
+var parseAttribs = function () {
+    var attribs = [];
 
+    var endingOnValue = 'SEQEND';
+
+    while (true) {
+
+      if (curr.code === 0) {
+        if (curr.value === endingOnValue) {
+          break;
+        }
+        var attrib;
+        log.debug(curr.value + ' {');
+        attrib = attribHandler.parseEntity(scanner, curr);
+        curr = scanner.lastReadGroup;
+        log.debug('}');
+        ensureHandle(attrib);
+        attribs.push(attrib);
+      } else {
+        // ignored lines from unsupported entity
+        curr = scanner.next();
+      }
+    }
+    curr = scanner.next(); // swallow up SEQEND
+    return attribs;
+  };
