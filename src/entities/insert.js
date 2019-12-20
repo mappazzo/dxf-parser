@@ -50,7 +50,7 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
             case 0:
               if (curr.value == 'ENDSEQ')
                 break;
-              block.entities = parseEntities(true);
+              entity.attribs = parseAttribs();
               break;
             default: // check common entity attributes
                 helpers.checkCommonEntityProperties(entity, curr);
