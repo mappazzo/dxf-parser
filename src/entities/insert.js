@@ -11,8 +11,8 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
     entity = { type: curr.value };
     curr = scanner.next();
     while(curr !== 'EOF') {
-        if(curr.code === 0) break;
-
+        if(curr.code === 0 && curr.value != 'ATTRIB') break;
+        
         switch(curr.code) {
             case 2:
                 entity.name = curr.value;
@@ -32,6 +32,9 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
             case 50:
                 entity.rotation = curr.value;
                 break;
+            case 66:
+                entity.hasAttribs = curr.value;
+                break;
             case 70:
                 entity.columnCount = curr.value;
                 break;
@@ -48,8 +51,6 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
                 entity.extrusionDirection = helpers.parsePoint(scanner);
                 break;
             case 0:
-              if (curr.value == 'ENDSEQ')
-                break;
               entity.attribs = parseAttribs();
               break;
             default: // check common entity attributes
@@ -65,26 +66,23 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
 var parseAttribs = function () {
     var attribs = [];
 
-    var endingOnValue = 'SEQEND';
-
     while (true) {
-
-      if (curr.code === 0) {
-        if (curr.value === endingOnValue) {
-          break;
-        }
-        var attrib;
-        log.debug(curr.value + ' {');
-        attrib = attribHandler.parseEntity(scanner, curr);
-        curr = scanner.lastReadGroup;
-        log.debug('}');
-        ensureHandle(attrib);
-        attribs.push(attrib);
+        
+        if (curr.code === 0) {
+          if (curr.value === 'SEQEND') break;
+          
+          var attrib;
+          log.debug(curr.value + ' {');
+          attrib = attribHandler.parseEntity(scanner, curr);
+          curr = scanner.lastReadGroup;
+          log.debug('}');
+          ensureHandle(attrib);
+          attribs.push(attrib);
       } else {
-        // ignored lines from unsupported entity
-        curr = scanner.next();
+          // ignored lines from unsupported entity
+          curr = scanner.next();
       }
     }
     curr = scanner.next(); // swallow up SEQEND
     return attribs;
-  };
+};
