@@ -5619,54 +5619,444 @@
         {
           "type": "INSERT",
           "handle": "323F",
-          "ownerHandle": "20A5",
+          "ownerHandle": "323F",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 4.961569703240868,
             "y": 1.113705597586591,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "3240",
+              "ownerHandle": "323F",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 5.277672193008943,
+                "y": 0.5356806037759974,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "5",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 5.399069703240867,
+                "y": 0.6919306037759974,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3241",
+              "ownerHandle": "323F",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 7.269685388179055,
+                "y": 0.7325278599122101,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 7.269685388179055,
+                "y": 0.7325278599122101,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3242",
+              "ownerHandle": "323F",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 7.06477467389334,
+                "y": 0.5465783024528115,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 7.269685388179054,
+                "y": 0.5465783024528115,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "3244",
-          "ownerHandle": "20A5",
+          "ownerHandle": "3244",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 4.964102075624985,
             "y": 6.020380070156107,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "3245",
+              "ownerHandle": "3244",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 5.28020456539306,
+                "y": 5.442355076345513,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "4",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 5.401602075624984,
+                "y": 5.598605076345513,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3246",
+              "ownerHandle": "3244",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 7.272217760563172,
+                "y": 5.639202332481726,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 7.272217760563172,
+                "y": 5.639202332481726,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3247",
+              "ownerHandle": "3244",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 7.101458831991742,
+                "y": 5.453252775022328,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "1:2",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 7.272217760563171,
+                "y": 5.453252775022328,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "3249",
-          "ownerHandle": "20A5",
+          "ownerHandle": "3249",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 11.57768473007549,
             "y": 1.113705597586591,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "324A",
+              "ownerHandle": "3249",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 11.89378721984356,
+                "y": 0.5356806037759974,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "6",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 12.01518473007548,
+                "y": 0.6919306037759974,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "324B",
+              "ownerHandle": "3249",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.88580041501368,
+                "y": 0.7325278599122101,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.88580041501368,
+                "y": 0.7325278599122101,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "324C",
+              "ownerHandle": "3249",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.68088970072796,
+                "y": 0.5465783024528115,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.88580041501367,
+                "y": 0.5465783024528115,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "B1FA",
-          "ownerHandle": "20A5",
+          "ownerHandle": "B1FA",
           "inPaperSpace": true,
           "layer": "0",
+          "hasAttribs": 1,
           "name": "11x17",
           "position": {
             "x": -22.88944543086797,
             "y": 0.2612045714135007,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1FB",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.43805336626482,
+                "y": 4.057806959305764,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "API In House",
+              "rotation": 90,
+              "tag": "CUSTOMER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1FC",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.68272061085034,
+                "y": 4.059918240695651,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "2-1/2\" x 7-1/2\" Curtain Wall",
+              "rotation": 90,
+              "tag": "ASSEMBLY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1FD",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.9320086714487,
+                "y": 4.059914092168128,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "N.T.S",
+              "rotation": 90,
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1FE",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.18067269570484,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "SW",
+              "rotation": 90,
+              "tag": "DRAWN_BY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1FF",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43015128663241,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "12-13-10",
+              "rotation": 90,
+              "tag": "DATE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B200",
+              "ownerHandle": "B1FA",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43174065023503,
+                "y": 5.784896725907088,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "3 of 4",
+              "rotation": 90,
+              "tag": "SHEET",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         }
       ]
     },
@@ -8289,15 +8679,100 @@
         {
           "type": "INSERT",
           "handle": "3261",
-          "ownerHandle": "21B1",
+          "ownerHandle": "3261",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 11.24055374999194,
             "y": 5.510063678905414,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "3262",
+              "ownerHandle": "3261",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 11.55665623976001,
+                "y": 4.93203868509482,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "7",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 11.67805374999193,
+                "y": 5.08828868509482,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3263",
+              "ownerHandle": "3261",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.54866943493012,
+                "y": 5.128885941231033,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.54866943493012,
+                "y": 5.128885941231033,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3264",
+              "ownerHandle": "3261",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.34375872064441,
+                "y": 4.942936383771634,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.54866943493012,
+                "y": 4.942936383771634,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "TEXT",
@@ -8344,15 +8819,150 @@
         {
           "type": "INSERT",
           "handle": "B218",
-          "ownerHandle": "21B1",
+          "ownerHandle": "B218",
           "inPaperSpace": true,
           "layer": "0",
+          "hasAttribs": 1,
           "name": "11x17",
           "position": {
             "x": -22.88944543086797,
             "y": 0.2612045714135007,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B219",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.43805336626482,
+                "y": 4.057806959305764,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "API In House",
+              "rotation": 90,
+              "tag": "CUSTOMER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B21A",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.68272061085034,
+                "y": 4.059918240695651,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "2-1/2\" x 7-1/2\" Curtain Wall",
+              "rotation": 90,
+              "tag": "ASSEMBLY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B21B",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.9320086714487,
+                "y": 4.059914092168128,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "N.T.S",
+              "rotation": 90,
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B21C",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.18067269570484,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "SW",
+              "rotation": 90,
+              "tag": "DRAWN_BY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B21D",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43015128663241,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "12-13-10",
+              "rotation": 90,
+              "tag": "DATE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B21E",
+              "ownerHandle": "B218",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43174065023503,
+                "y": 5.784896725907088,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "4 of 4",
+              "rotation": 90,
+              "tag": "SHEET",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         }
       ]
     },
@@ -59214,54 +59824,444 @@
         {
           "type": "INSERT",
           "handle": "321D",
-          "ownerHandle": "1FDD",
+          "ownerHandle": "321D",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 2.540957634041468,
             "y": 2.465734462230543,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "321E",
+              "ownerHandle": "321D",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 2.857060123809543,
+                "y": 1.887709468419949,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "1",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 2.978457634041467,
+                "y": 2.043959468419949,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "321F",
+              "ownerHandle": "321D",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 4.849073318979654,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 4.849073318979654,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3220",
+              "ownerHandle": "321D",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 4.644162604693939,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 4.849073318979653,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "3222",
-          "ownerHandle": "1FDD",
+          "ownerHandle": "3222",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 6.791896643672551,
             "y": 2.465734462230543,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "3223",
+              "ownerHandle": "3222",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 7.107999133440626,
+                "y": 1.887709468419949,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "2",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 7.229396643672549,
+                "y": 2.043959468419949,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3224",
+              "ownerHandle": "3222",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 9.100012328610738,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 9.100012328610738,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3225",
+              "ownerHandle": "3222",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 8.895101614325021,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 9.100012328610736,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "3227",
-          "ownerHandle": "1FDD",
+          "ownerHandle": "3227",
           "inPaperSpace": true,
           "layer": "FG-Title",
+          "hasAttribs": 1,
           "name": "Detail Title",
           "position": {
             "x": 11.20760072619196,
             "y": 2.465734462230543,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 1,
+              "textStyle": "FG-Title",
+              "handle": "3228",
+              "ownerHandle": "3227",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 11.52370321596003,
+                "y": 1.887709468419949,
+                "z": 0
+              },
+              "textHeight": 0.3125,
+              "text": "3",
+              "horizontalJustification": 1,
+              "endPoint": {
+                "x": 11.64510072619196,
+                "y": 2.043959468419949,
+                "z": 0
+              },
+              "tag": "DETAILNUMBER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false,
+              "verticalJustification": 2
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "3229",
+              "ownerHandle": "3227",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.51571641113015,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.51571641113015,
+                "y": 2.084556724556161,
+                "z": 0
+              },
+              "tag": "ARCHREF",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "322A",
+              "ownerHandle": "3227",
+              "inPaperSpace": true,
+              "layer": "0",
+              "startPoint": {
+                "x": 13.31080569684443,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "textHeight": 0.09375,
+              "text": "NTS",
+              "horizontalJustification": 2,
+              "endPoint": {
+                "x": 13.51571641113015,
+                "y": 1.898607167096763,
+                "z": 0
+              },
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         },
         {
           "type": "INSERT",
           "handle": "B1DC",
-          "ownerHandle": "1FDD",
+          "ownerHandle": "B1DC",
           "inPaperSpace": true,
           "layer": "0",
+          "hasAttribs": 1,
           "name": "11x17",
           "position": {
             "x": -22.88944543086797,
             "y": 0.2612045714135007,
             "z": 0
-          }
+          },
+          "attribs": [
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1DD",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.43805336626482,
+                "y": 4.057806959305764,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "API In House",
+              "rotation": 90,
+              "tag": "CUSTOMER",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1DE",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.68272061085034,
+                "y": 4.059918240695651,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "2-1/2\" x 7-1/2\" Curtain Wall",
+              "rotation": 90,
+              "tag": "ASSEMBLY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1DF",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 15.9320086714487,
+                "y": 4.059914092168128,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "N.T.S",
+              "rotation": 90,
+              "tag": "SCALE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1E0",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.18067269570484,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "SW",
+              "rotation": 90,
+              "tag": "DRAWN_BY",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1E1",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43015128663241,
+                "y": 4.054049350725676,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "12-13-10",
+              "rotation": 90,
+              "tag": "DATE",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            },
+            {
+              "type": "ATTRIB",
+              "scale": 0.85,
+              "textStyle": "FG-Note",
+              "handle": "B1E2",
+              "ownerHandle": "B1DC",
+              "inPaperSpace": true,
+              "layer": "A-ANNO-NOTES",
+              "startPoint": {
+                "x": 16.43174065023503,
+                "y": 5.784896725907088,
+                "z": 0
+              },
+              "textHeight": 0.094,
+              "text": "2 of 4",
+              "rotation": 90,
+              "tag": "SHEET",
+              "invisible": false,
+              "constant": false,
+              "verificationRequired": false,
+              "preset": false
+            }
+          ]
         }
       ]
     },

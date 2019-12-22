@@ -1,8 +1,1436 @@
 {
+  "header": {
+    "$ACADVER": "AC1032",
+    "$ACADMAINTVER": 4,
+    "$DWGCODEPAGE": "ANSI_1252",
+    "$LASTSAVEDBY": "chellino",
+    "$REQUIREDVERSIONS": 0,
+    "$INSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$EXTMIN": {
+      "x": 124.197939914163,
+      "y": 108.6574248927038,
+      "z": 0
+    },
+    "$EXTMAX": {
+      "x": 288.8259854050311,
+      "y": 264.6236780620924,
+      "z": 0
+    },
+    "$LIMMIN": {
+      "x": 0,
+      "y": 0
+    },
+    "$LIMMAX": {
+      "x": 420,
+      "y": 297
+    },
+    "$ORTHOMODE": 0,
+    "$REGENMODE": 1,
+    "$FILLMODE": 1,
+    "$QTEXTMODE": 0,
+    "$MIRRTEXT": 0,
+    "$LTSCALE": 1,
+    "$ATTMODE": 1,
+    "$TEXTSIZE": 2.5,
+    "$TRACEWID": 1,
+    "$TEXTSTYLE": "Standard",
+    "$CLAYER": "0",
+    "$CELTYPE": "ByLayer",
+    "$CECOLOR": 256,
+    "$CELTSCALE": 1,
+    "$DISPSILH": 0,
+    "$DIMSCALE": 1,
+    "$DIMASZ": 2.5,
+    "$DIMEXO": 0.625,
+    "$DIMDLI": 3.75,
+    "$DIMRND": 0,
+    "$DIMDLE": 0,
+    "$DIMEXE": 1.25,
+    "$DIMTP": 0,
+    "$DIMTM": 0,
+    "$DIMTXT": 2.5,
+    "$DIMCEN": 2.5,
+    "$DIMTSZ": 0,
+    "$DIMTOL": 0,
+    "$DIMLIM": 0,
+    "$DIMTIH": 0,
+    "$DIMTOH": 0,
+    "$DIMSE1": 0,
+    "$DIMSE2": 0,
+    "$DIMTAD": 1,
+    "$DIMZIN": 8,
+    "$DIMBLK": "",
+    "$DIMASO": 1,
+    "$DIMSHO": 1,
+    "$DIMPOST": "",
+    "$DIMAPOST": "",
+    "$DIMALT": 0,
+    "$DIMALTD": 3,
+    "$DIMALTF": 0.03937007874016,
+    "$DIMLFAC": 1,
+    "$DIMTOFL": 1,
+    "$DIMTVP": 0,
+    "$DIMTIX": 0,
+    "$DIMSOXD": 0,
+    "$DIMSAH": 0,
+    "$DIMBLK1": "",
+    "$DIMBLK2": "",
+    "$DIMSTYLE": "ISO-25",
+    "$DIMCLRD": 0,
+    "$DIMCLRE": 0,
+    "$DIMCLRT": 0,
+    "$DIMTFAC": 1,
+    "$DIMGAP": 0.625,
+    "$DIMJUST": 0,
+    "$DIMSD1": 0,
+    "$DIMSD2": 0,
+    "$DIMTOLJ": 0,
+    "$DIMTZIN": 8,
+    "$DIMALTZ": 0,
+    "$DIMALTTZ": 0,
+    "$DIMUPT": 0,
+    "$DIMDEC": 2,
+    "$DIMTDEC": 2,
+    "$DIMALTU": 2,
+    "$DIMALTTD": 3,
+    "$DIMTXSTY": "Standard",
+    "$DIMAUNIT": 0,
+    "$DIMADEC": 0,
+    "$DIMALTRND": 0,
+    "$DIMAZIN": 0,
+    "$DIMDSEP": 44,
+    "$DIMATFIT": 3,
+    "$DIMFRAC": 0,
+    "$DIMLDRBLK": "",
+    "$DIMLUNIT": 2,
+    "$DIMLWD": -2,
+    "$DIMLWE": -2,
+    "$DIMTMOVE": 0,
+    "$DIMFXL": 1,
+    "$DIMFXLON": 0,
+    "$DIMJOGANG": 0.7853981633974483,
+    "$DIMTFILL": 0,
+    "$DIMTFILLCLR": 0,
+    "$DIMARCSYM": 0,
+    "$DIMLTYPE": "",
+    "$DIMLTEX1": "",
+    "$DIMLTEX2": "",
+    "$DIMTXTDIRECTION": 0,
+    "$LUNITS": 2,
+    "$LUPREC": 3,
+    "$SKETCHINC": 1,
+    "$FILLETRAD": 10,
+    "$AUNITS": 0,
+    "$AUPREC": 0,
+    "$MENU": ".",
+    "$ELEVATION": 0,
+    "$PELEVATION": 0,
+    "$THICKNESS": 0,
+    "$LIMCHECK": 0,
+    "$CHAMFERA": 10,
+    "$CHAMFERB": 10,
+    "$CHAMFERC": 20,
+    "$CHAMFERD": 0,
+    "$SKPOLY": 0,
+    "$TDCREATE": 2455023.137359514,
+    "$TDUCREATE": 2455022.637359514,
+    "$TDUPDATE": 2458836.440401354,
+    "$TDUUPDATE": 2458835.940401354,
+    "$TDINDWG": 2.31e-8,
+    "$TDUSRTIMER": 0.0009202083,
+    "$USRTIMER": 1,
+    "$ANGBASE": 0,
+    "$ANGDIR": 0,
+    "$PDMODE": 0,
+    "$PDSIZE": 0,
+    "$PLINEWID": 0,
+    "$SPLFRAME": 0,
+    "$SPLINETYPE": 6,
+    "$SPLINESEGS": 8,
+    "$HANDSEED": "166",
+    "$SURFTAB1": 6,
+    "$SURFTAB2": 6,
+    "$SURFTYPE": 6,
+    "$SURFU": 6,
+    "$SURFV": 6,
+    "$UCSBASE": "",
+    "$UCSNAME": "",
+    "$UCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$UCSORTHOREF": "",
+    "$UCSORTHOVIEW": 0,
+    "$UCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSBASE": "",
+    "$PUCSNAME": "",
+    "$PUCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$PUCSORTHOREF": "",
+    "$PUCSORTHOVIEW": 0,
+    "$PUCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$USERI1": 0,
+    "$USERI2": 0,
+    "$USERI3": 0,
+    "$USERI4": 0,
+    "$USERI5": 0,
+    "$USERR1": 0,
+    "$USERR2": 0,
+    "$USERR3": 0,
+    "$USERR4": 0,
+    "$USERR5": 0,
+    "$WORLDVIEW": 1,
+    "$SHADEDGE": 3,
+    "$SHADEDIF": 70,
+    "$TILEMODE": 1,
+    "$MAXACTVP": 64,
+    "$PINSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PLIMCHECK": 0,
+    "$PEXTMIN": {
+      "x": 100000000000000000000,
+      "y": 100000000000000000000,
+      "z": 100000000000000000000
+    },
+    "$PEXTMAX": {
+      "x": -100000000000000000000,
+      "y": -100000000000000000000,
+      "z": -100000000000000000000
+    },
+    "$PLIMMIN": {
+      "x": -7.5,
+      "y": -20
+    },
+    "$PLIMMAX": {
+      "x": 833.5,
+      "y": 574
+    },
+    "$UNITMODE": 0,
+    "$VISRETAIN": 1,
+    "$PLINEGEN": 0,
+    "$PSLTSCALE": 1,
+    "$TREEDEPTH": 3020,
+    "$CMLSTYLE": "Standard",
+    "$CMLJUST": 0,
+    "$CMLSCALE": 20,
+    "$PROXYGRAPHICS": 1,
+    "$MEASUREMENT": 1,
+    "$CELWEIGHT": -1,
+    "$ENDCAPS": 0,
+    "$JOINSTYLE": 0,
+    "$LWDISPLAY": false,
+    "$INSUNITS": 4,
+    "$HYPERLINKBASE": "",
+    "$STYLESHEET": "",
+    "$XEDIT": true,
+    "$CEPSNTYPE": 0,
+    "$PSTYLEMODE": true,
+    "$FINGERPRINTGUID": "{EC6BB858-51AA-46EC-B484-6C9CC7AB3E2E}",
+    "$VERSIONGUID": "{FAEB1C32-E019-11D5-929B-00C0DF256EC4}",
+    "$EXTNAMES": true,
+    "$PSVPSCALE": 0,
+    "$OLESTARTUP": false,
+    "$SORTENTS": 127,
+    "$INDEXCTL": 0,
+    "$HIDETEXT": 1,
+    "$XCLIPFRAME": 0,
+    "$HALOGAP": 0,
+    "$OBSCOLOR": 257,
+    "$OBSLTYPE": 0,
+    "$INTERSECTIONDISPLAY": 0,
+    "$INTERSECTIONCOLOR": 257,
+    "$DIMASSOC": 2,
+    "$PROJECTNAME": "",
+    "$CAMERADISPLAY": false,
+    "$LENSLENGTH": 50,
+    "$CAMERAHEIGHT": 0,
+    "$STEPSPERSEC": 2,
+    "$STEPSIZE": 6,
+    "$3DDWFPREC": 2,
+    "$PSOLWIDTH": 5,
+    "$PSOLHEIGHT": 80,
+    "$LOFTANG1": 1.570796326794897,
+    "$LOFTANG2": 1.570796326794897,
+    "$LOFTMAG1": 0,
+    "$LOFTMAG2": 0,
+    "$LOFTPARAM": 7,
+    "$LOFTNORMALS": 1,
+    "$LATITUDE": 37.795,
+    "$LONGITUDE": -122.394,
+    "$NORTHDIRECTION": 0,
+    "$TIMEZONE": -8000,
+    "$LIGHTGLYPHDISPLAY": 1,
+    "$TILEMODELIGHTSYNCH": 1,
+    "$SOLIDHIST": 1,
+    "$SHOWHIST": 1,
+    "$DWFFRAME": 2,
+    "$DGNFRAME": 2,
+    "$REALWORLDSCALE": true,
+    "$INTERFERECOLOR": 256,
+    "$CSHADOW": 0,
+    "$SHADOWPLANELOCATION": 0
+  },
+  "tables": {
+    "viewPort": {
+      "handle": "8",
+      "ownerHandle": "0",
+      "viewPorts": [
+        {
+          "ownerHandle": "8",
+          "name": "*Active",
+          "lowerLeftCorner": {
+            "x": 0,
+            "y": 0
+          },
+          "upperRightCorner": {
+            "x": 1,
+            "y": 1
+          },
+          "center": {
+            "x": 344.1869158878504,
+            "y": 148.5
+          },
+          "snapBasePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "snapSpacing": {
+            "x": 10,
+            "y": 10
+          },
+          "gridSpacing": {
+            "x": 10,
+            "y": 10
+          },
+          "viewDirectionFromTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "viewTarget": {
+            "x": -134.1869158878504,
+            "y": 0,
+            "z": 0
+          },
+          "lensLength": 50,
+          "frontClippingPlane": 0,
+          "backClippingPlane": 0,
+          "snapRotationAngle": 0,
+          "viewTwistAngle": 0,
+          "renderMode": 0,
+          "ucsOrigin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ucsXAxis": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "ucsYAxis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "orthographicType": 0,
+          "defaultLightingOn": true,
+          "ambientColor": 256
+        }
+      ]
+    },
+    "lineType": {
+      "handle": "5",
+      "ownerHandle": "0",
+      "lineTypes": {
+        "ByBlock": {
+          "name": "ByBlock",
+          "description": "",
+          "patternLength": 0
+        },
+        "ByLayer": {
+          "name": "ByLayer",
+          "description": "",
+          "patternLength": 0
+        },
+        "Continuous": {
+          "name": "Continuous",
+          "description": "Solid line",
+          "patternLength": 0
+        },
+        "MP_DASHL-1": {
+          "name": "MP_DASHL-1",
+          "description": "DashLong @ (2 1) __ __ __ __ __ __ __ __",
+          "pattern": [
+            2,
+            -1
+          ],
+          "patternLength": 3
+        },
+        "MP_DASH-2": {
+          "name": "MP_DASH-2",
+          "description": "Dashed (2 2) __  __  __  __  __  __  __  __",
+          "pattern": [
+            2,
+            -2
+          ],
+          "patternLength": 4
+        }
+      }
+    },
+    "layer": {
+      "handle": "2",
+      "ownerHandle": "0",
+      "layers": {
+        "0": {
+          "name": "0",
+          "frozen": false,
+          "visible": true,
+          "colorIndex": 7,
+          "color": 16777215
+        },
+        "SYM-FUNC": {
+          "name": "SYM-FUNC",
+          "frozen": false,
+          "visible": true,
+          "colorIndex": 7,
+          "color": 16777215
+        },
+        "SITE": {
+          "name": "SITE",
+          "frozen": false,
+          "visible": true,
+          "colorIndex": 6,
+          "color": 16711935
+        },
+        "ASSETID": {
+          "name": "ASSETID",
+          "frozen": false,
+          "visible": true,
+          "colorIndex": 7,
+          "color": 16777215
+        },
+        "SYM-OPER": {
+          "name": "SYM-OPER",
+          "frozen": false,
+          "visible": true,
+          "colorIndex": 40,
+          "color": 16760576
+        }
+      }
+    }
+  },
   "blocks": {
+    "*Model_Space": {
+      "handle": "20",
+      "ownerHandle": "1F",
+      "layer": "0",
+      "name": "*Model_Space",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "*Model_Space",
+      "xrefPath": ""
+    },
+    "*Paper_Space": {
+      "handle": "1C",
+      "ownerHandle": "1B",
+      "paperSpace": true,
+      "layer": "0",
+      "name": "*Paper_Space",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "*Paper_Space",
+      "xrefPath": ""
+    },
+    "*Paper_Space0": {
+      "handle": "24",
+      "ownerHandle": "23",
+      "layer": "0",
+      "name": "*Paper_Space0",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "*Paper_Space0",
+      "xrefPath": ""
+    },
+    "MECH-PUMP-CENTRIFUGAL-L": {
+      "handle": "D4",
+      "ownerHandle": "D3",
+      "layer": "0",
+      "name": "MECH-PUMP-CENTRIFUGAL-L",
+      "type": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "MECH-PUMP-CENTRIFUGAL-L",
+      "xrefPath": "",
+      "entities": [
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "D5",
+          "ownerHandle": "D3",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": -0.9114583333333343,
+            "y": -16,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "?",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": -9e-16,
+            "y": -16,
+            "z": 0
+          },
+          "prompt": "Asset ID",
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "D6",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -9e-16,
+            "y": -21.5,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": -9e-16,
+            "y": -21.5,
+            "z": 0
+          },
+          "prompt": "Display label",
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "D7",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 27.30426285987057,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "PUMP-CENTRIFUGAL",
+          "prompt": "",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "D8",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.90285441672955,
+            "y": 19.72765692144885,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "prompt": "FLOW RATE / CAPACITY",
+          "tag": "CAPACITY",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "D9",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 23.60730555564351,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "prompt": "MANUFACTURER AND/OR MODEL",
+          "tag": "MODEL",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "DA",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.71552790495723,
+            "y": 31.10252085107371,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "MECHANICAL",
+          "prompt": "",
+          "tag": "GROUP",
+          "invisible": true,
+          "constant": true,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "DB",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.903,
+            "y": 15.91903353456827,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "PIPE SIZE",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -8e-16,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 12,
+              "y": 2.4e-15,
+              "z": 0
+            }
+          ],
+          "handle": "DC",
+          "ownerHandle": "D3",
+          "layer": "0"
+        },
+        {
+          "type": "CIRCLE",
+          "handle": "DD",
+          "ownerHandle": "D3",
+          "layer": "0",
+          "center": {
+            "x": -8e-16,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 6
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -1.9e-15,
+              "y": 6,
+              "z": 0
+            },
+            {
+              "x": -12,
+              "y": 5.999999999999999,
+              "z": 0
+            }
+          ],
+          "handle": "DE",
+          "ownerHandle": "D3",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 5.999999999999999,
+              "y": -8,
+              "z": 0
+            },
+            {
+              "x": -6.000000000000001,
+              "y": -7.999999999999999,
+              "z": 0
+            }
+          ],
+          "handle": "DF",
+          "ownerHandle": "D3",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 2.913857587071791,
+              "y": -5.244943656729226,
+              "z": 0
+            },
+            {
+              "x": 5.999999999999999,
+              "y": -8,
+              "z": 0
+            }
+          ],
+          "handle": "E0",
+          "ownerHandle": "D3",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -6.000000000000001,
+              "y": -7.999999999999999,
+              "z": 0
+            },
+            {
+              "x": -2.913857587071794,
+              "y": -5.244943656729227,
+              "z": 0
+            }
+          ],
+          "handle": "E1",
+          "ownerHandle": "D3",
+          "layer": "0"
+        }
+      ]
+    },
+    "VALVES-GATE": {
+      "handle": "EC",
+      "ownerHandle": "EB",
+      "layer": "0",
+      "name": "VALVES-GATE",
+      "type": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "VALVES-GATE",
+      "xrefPath": "",
+      "entities": [
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "ED",
+          "ownerHandle": "EB",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": -0.9114583333333334,
+            "y": -11,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "?",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": -11,
+            "z": 0
+          },
+          "prompt": "Asset ID",
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "EE",
+          "ownerHandle": "EB",
+          "layer": "0",
+          "startPoint": {
+            "x": 0,
+            "y": -16.5,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": -16.5,
+            "z": 0
+          },
+          "prompt": "Display label",
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "F0",
+          "ownerHandle": "EB",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.90285441672955,
+            "y": 12.20330343777485,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "ENTER VALVE SIZE",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "F1",
+          "ownerHandle": "EB",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 16.08295207196952,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "ACTUATOR TYPE",
+          "tag": "ACTUATOR",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "F2",
+          "ownerHandle": "EB",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.71552790495723,
+            "y": 23.57816736739971,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "VALVE",
+          "prompt": "",
+          "tag": "GROUP",
+          "invisible": true,
+          "constant": true,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -6,
+              "y": -2.999999999999998,
+              "z": 0
+            },
+            {
+              "x": -6,
+              "y": 3,
+              "z": 0
+            }
+          ],
+          "handle": "F3",
+          "ownerHandle": "EB",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 6,
+              "y": -3,
+              "z": 0
+            },
+            {
+              "x": 6,
+              "y": 3,
+              "z": 0
+            }
+          ],
+          "handle": "F4",
+          "ownerHandle": "EB",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 6,
+              "y": -3,
+              "z": 0
+            },
+            {
+              "x": -6,
+              "y": 3,
+              "z": 0
+            }
+          ],
+          "handle": "F5",
+          "ownerHandle": "EB",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": -6,
+              "y": -2.999999999999998,
+              "z": 0
+            },
+            {
+              "x": 6,
+              "y": 3,
+              "z": 0
+            }
+          ],
+          "handle": "F6",
+          "ownerHandle": "EB",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 0,
+              "y": -3,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "z": 0
+            }
+          ],
+          "handle": "F7",
+          "ownerHandle": "EB",
+          "layer": "0"
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "F8",
+          "ownerHandle": "EB",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 19.77990937619657,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "GATE",
+          "prompt": "",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    "VALVES-DIAPHRAGM-D": {
+      "handle": "102",
+      "ownerHandle": "101",
+      "layer": "0",
+      "name": "VALVES-DIAPHRAGM-D",
+      "type": 2,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "name2": "VALVES-DIAPHRAGM-D",
+      "xrefPath": "",
+      "entities": [
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "103",
+          "ownerHandle": "101",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 10,
+            "y": 1,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "?",
+          "prompt": "Asset ID",
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "104",
+          "ownerHandle": "101",
+          "layer": "0",
+          "startPoint": {
+            "x": 10,
+            "y": -4.5,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "prompt": "Display label",
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "106",
+          "ownerHandle": "101",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 19.77990937619657,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "DIAPHRAGM",
+          "prompt": "",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "107",
+          "ownerHandle": "101",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.90285441672955,
+            "y": 12.20330343777485,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "ENTER VALVE SIZE",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "108",
+          "ownerHandle": "101",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.94657064967477,
+            "y": 16.08295207196952,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "prompt": "ACTUATOR TYPE",
+          "tag": "ACTUATOR",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTDEF",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "109",
+          "ownerHandle": "101",
+          "layer": "0",
+          "startPoint": {
+            "x": -31.71552790495723,
+            "y": 23.57816736739971,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "VALVE",
+          "prompt": "",
+          "tag": "GROUP",
+          "invisible": true,
+          "constant": true,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 3,
+              "y": 6,
+              "z": 0
+            },
+            {
+              "x": -3,
+              "y": -6,
+              "z": 0
+            }
+          ],
+          "handle": "10A",
+          "ownerHandle": "101",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 3,
+              "y": -6,
+              "z": 0
+            },
+            {
+              "x": -3,
+              "y": 6,
+              "z": 0
+            }
+          ],
+          "handle": "10B",
+          "ownerHandle": "101",
+          "layer": "0"
+        },
+        {
+          "type": "ARC",
+          "handle": "10C",
+          "ownerHandle": "101",
+          "layer": "0",
+          "center": {
+            "x": 8.25,
+            "y": -5e-16,
+            "z": 0
+          },
+          "radius": 12.75000000000001,
+          "startAngle": 2.651635327336064,
+          "endAngle": 3.631549979843522,
+          "angleLength": 0.9799146525074578
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 3,
+              "y": -6,
+              "z": 0
+            },
+            {
+              "x": -3,
+              "y": -6,
+              "z": 0
+            }
+          ],
+          "handle": "10D",
+          "ownerHandle": "101",
+          "layer": "0"
+        },
+        {
+          "type": "LINE",
+          "vertices": [
+            {
+              "x": 3,
+              "y": 6,
+              "z": 0
+            },
+            {
+              "x": -3,
+              "y": 6,
+              "z": 0
+            }
+          ],
+          "handle": "10E",
+          "ownerHandle": "101",
+          "layer": "0"
+        }
+      ]
+    },
     "MECH-STRAINER": {
-      "handle": "B4A3",
-      "ownerHandle": "B4A2",
+      "handle": "118",
+      "ownerHandle": "117",
       "layer": "0",
       "name": "MECH-STRAINER",
       "type": 2,
@@ -18,8 +1446,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4A5",
-          "ownerHandle": "B4A2",
+          "handle": "11A",
+          "ownerHandle": "117",
           "layer": "ASSETID",
           "startPoint": {
             "x": -0.9114583333333476,
@@ -47,8 +1475,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4A6",
-          "ownerHandle": "B4A2",
+          "handle": "11B",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -1.42e-14,
@@ -86,8 +1514,8 @@
               "z": 0
             }
           ],
-          "handle": "B4A7",
-          "ownerHandle": "B4A2",
+          "handle": "11C",
+          "ownerHandle": "117",
           "layer": "0"
         },
         {
@@ -104,8 +1532,8 @@
               "z": 0
             }
           ],
-          "handle": "B4A8",
-          "ownerHandle": "B4A2",
+          "handle": "11D",
+          "ownerHandle": "117",
           "layer": "0"
         },
         {
@@ -122,8 +1550,8 @@
               "z": 0
             }
           ],
-          "handle": "B4A9",
-          "ownerHandle": "B4A2",
+          "handle": "11E",
+          "ownerHandle": "117",
           "layer": "0"
         },
         {
@@ -140,8 +1568,8 @@
               "z": 0
             }
           ],
-          "handle": "B4AA",
-          "ownerHandle": "B4A2",
+          "handle": "11F",
+          "ownerHandle": "117",
           "layer": "0"
         },
         {
@@ -158,8 +1586,8 @@
               "z": 0
             }
           ],
-          "handle": "B4AB",
-          "ownerHandle": "B4A2",
+          "handle": "120",
+          "ownerHandle": "117",
           "layer": "0",
           "lineType": "MP_DASH-2"
         },
@@ -167,8 +1595,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4AC",
-          "ownerHandle": "B4A2",
+          "handle": "121",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -31.94657064967477,
@@ -196,8 +1624,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4AD",
-          "ownerHandle": "B4A2",
+          "handle": "122",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -31.90285441672955,
@@ -225,8 +1653,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4AE",
-          "ownerHandle": "B4A2",
+          "handle": "123",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -31.94657064967477,
@@ -254,8 +1682,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4AF",
-          "ownerHandle": "B4A2",
+          "handle": "124",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -31.71552790495723,
@@ -283,8 +1711,8 @@
           "type": "ATTDEF",
           "scale": 1,
           "textStyle": "STANDARD",
-          "handle": "B4B0",
-          "ownerHandle": "B4A2",
+          "handle": "125",
+          "ownerHandle": "117",
           "layer": "0",
           "startPoint": {
             "x": -31.903,
@@ -322,8 +1750,8 @@
               "z": 0
             }
           ],
-          "handle": "B4B1",
-          "ownerHandle": "B4A2",
+          "handle": "126",
+          "ownerHandle": "117",
           "layer": "0"
         },
         {
@@ -340,38 +1768,871 @@
               "z": 0
             }
           ],
-          "handle": "B4B2",
-          "ownerHandle": "B4A2",
+          "handle": "127",
+          "ownerHandle": "117",
           "layer": "0"
         }
       ]
-    },
+    }
   },
   "entities": [
     {
       "type": "INSERT",
-      "handle": "EA1E",
-      "ownerHandle": "1F",
-      "layer": "SITE",
-      "name": "MECH-STRAINER",
+      "handle": "13D",
+      "ownerHandle": "13D",
+      "layer": "SYM-FUNC",
+      "hasAttribs": 1,
+      "name": "MECH-PUMP-CENTRIFUGAL-L",
       "position": {
-        "x": 279.6867669759975,
-        "y": 361.8746825058308,
+        "x": 213.5111729381654,
+        "y": 130.1574248927038,
         "z": 0
       },
-      "entities": [
+      "attribs": [
         {
           "type": "ATTRIB",
-          "layer": "0",
-          "text": "Strainer1",
-          "tag": "TYPE",
-        },
-        {
-          "type": "ATTRIB",
-          "layer": "0",
-          "text": "65681",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "13E",
+          "ownerHandle": "13D",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 206.4252354381654,
+            "y": 114.1574248927038,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "45871",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 213.5111729381654,
+            "y": 114.1574248927038,
+            "z": 0
+          },
           "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
         },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "13F",
+          "ownerHandle": "13D",
+          "layer": "0",
+          "startPoint": {
+            "x": 206.8523187714988,
+            "y": 108.6574248927038,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "BILGE",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 213.5111729381654,
+            "y": 108.6574248927038,
+            "z": 0
+          },
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "140",
+          "ownerHandle": "13D",
+          "layer": "0",
+          "startPoint": {
+            "x": 181.5646022884907,
+            "y": 157.4616877525744,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "PUMP-CENTRIFUGAL",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "141",
+          "ownerHandle": "13D",
+          "layer": "0",
+          "startPoint": {
+            "x": 181.6083185214359,
+            "y": 149.8850818141527,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "CAPACITY",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "142",
+          "ownerHandle": "13D",
+          "layer": "0",
+          "startPoint": {
+            "x": 181.5646022884907,
+            "y": 153.7647304483473,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "MODEL",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "143",
+          "ownerHandle": "13D",
+          "layer": "0",
+          "startPoint": {
+            "x": 181.6081729381655,
+            "y": 146.076458427272,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "INSERT",
+      "handle": "145",
+      "ownerHandle": "145",
+      "layer": "SYM-FUNC",
+      "hasAttribs": 1,
+      "name": "VALVES-GATE",
+      "position": {
+        "x": 188.5111729381654,
+        "y": 166.7450550250227,
+        "z": 0
+      },
+      "attribs": [
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "146",
+          "ownerHandle": "145",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 177.4356521048321,
+            "y": 155.7450550250227,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "2254356",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 188.5111729381654,
+            "y": 155.7450550250227,
+            "z": 0
+          },
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "147",
+          "ownerHandle": "145",
+          "layer": "0",
+          "startPoint": {
+            "x": 188.5111729381654,
+            "y": 150.2450550250227,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 188.5111729381654,
+            "y": 150.2450550250227,
+            "z": 0
+          },
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "148",
+          "ownerHandle": "145",
+          "layer": "0",
+          "startPoint": {
+            "x": 156.6083185214359,
+            "y": 178.9483584627975,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "60",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "149",
+          "ownerHandle": "145",
+          "layer": "0",
+          "startPoint": {
+            "x": 156.5646022884907,
+            "y": 182.8280070969922,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "MANUAL",
+          "tag": "ACTUATOR",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "14A",
+          "ownerHandle": "145",
+          "layer": "0",
+          "startPoint": {
+            "x": 156.5646022884907,
+            "y": 186.5249644012192,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "GATE",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "INSERT",
+      "handle": "14C",
+      "ownerHandle": "14C",
+      "layer": "SYM-FUNC",
+      "hasAttribs": 1,
+      "name": "VALVES-DIAPHRAGM-D",
+      "position": {
+        "x": 255.1541104050311,
+        "y": 169.9873515360623,
+        "z": 0
+      },
+      "attribs": [
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "14D",
+          "ownerHandle": "14C",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 265.1541104050311,
+            "y": 170.9873515360623,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "55481",
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "14E",
+          "ownerHandle": "14C",
+          "layer": "0",
+          "startPoint": {
+            "x": 265.1541104050311,
+            "y": 165.4873515360623,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "TestValve",
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "14F",
+          "ownerHandle": "14C",
+          "layer": "0",
+          "startPoint": {
+            "x": 223.2075397553564,
+            "y": 189.7672609122588,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "DIAPHRAGM",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "150",
+          "ownerHandle": "14C",
+          "layer": "0",
+          "startPoint": {
+            "x": 223.2512559883016,
+            "y": 182.1906549738371,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "151",
+          "ownerHandle": "14C",
+          "layer": "0",
+          "startPoint": {
+            "x": 223.2075397553564,
+            "y": 186.0703036080318,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "tag": "ACTUATOR",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "INSERT",
+      "handle": "153",
+      "ownerHandle": "153",
+      "layer": "SYM-FUNC",
+      "hasAttribs": 1,
+      "name": "MECH-STRAINER",
+      "position": {
+        "x": 132.197939914163,
+        "y": 158.1970744759625,
+        "z": 0
+      },
+      "attribs": [
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "154",
+          "ownerHandle": "153",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 126.5234607474964,
+            "y": 147.1970744759625,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "334f",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 132.197939914163,
+            "y": 147.1970744759625,
+            "z": 0
+          },
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "155",
+          "ownerHandle": "153",
+          "layer": "0",
+          "startPoint": {
+            "x": 132.197939914163,
+            "y": 141.6970744759625,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 132.197939914163,
+            "y": 141.6970744759625,
+            "z": 0
+          },
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "156",
+          "ownerHandle": "153",
+          "layer": "0",
+          "startPoint": {
+            "x": 100.2513692644883,
+            "y": 185.501337335833,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "STRAINER",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "157",
+          "ownerHandle": "153",
+          "layer": "0",
+          "startPoint": {
+            "x": 100.2950854974335,
+            "y": 177.9247313974114,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "CAPACITY",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "158",
+          "ownerHandle": "153",
+          "layer": "0",
+          "startPoint": {
+            "x": 100.2513692644883,
+            "y": 181.804380031606,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "MODEL",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "159",
+          "ownerHandle": "153",
+          "layer": "0",
+          "startPoint": {
+            "x": 100.2949399141631,
+            "y": 174.1161080105307,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "INSERT",
+      "handle": "15B",
+      "ownerHandle": "15B",
+      "layer": "SYM-FUNC",
+      "hasAttribs": 1,
+      "name": "MECH-STRAINER",
+      "position": {
+        "x": 205.3153120120598,
+        "y": 260.6236780620924,
+        "z": 0
+      },
+      "attribs": [
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "15C",
+          "ownerHandle": "15B",
+          "layer": "ASSETID",
+          "startPoint": {
+            "x": 198.2293745120598,
+            "y": 249.6236780620924,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "65681",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 205.3153120120598,
+            "y": 249.6236780620924,
+            "z": 0
+          },
+          "tag": "ASSETID",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "15D",
+          "ownerHandle": "15B",
+          "layer": "0",
+          "startPoint": {
+            "x": 194.5627078453931,
+            "y": 244.1236780620924,
+            "z": 0
+          },
+          "textHeight": 3.5,
+          "text": "Strainer1",
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 205.3153120120598,
+            "y": 244.1236780620924,
+            "z": 0
+          },
+          "tag": "LABEL",
+          "invisible": false,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "15E",
+          "ownerHandle": "15B",
+          "layer": "0",
+          "startPoint": {
+            "x": 173.368741362385,
+            "y": 287.927940921963,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "STRAINER",
+          "tag": "TYPE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "15F",
+          "ownerHandle": "15B",
+          "layer": "0",
+          "startPoint": {
+            "x": 173.4124575953302,
+            "y": 280.3513349835413,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "CAPACITY",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "160",
+          "ownerHandle": "15B",
+          "layer": "0",
+          "startPoint": {
+            "x": 173.368741362385,
+            "y": 284.2309836177359,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNKNOWN",
+          "tag": "MODEL",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "ATTRIB",
+          "scale": 1,
+          "textStyle": "STANDARD",
+          "handle": "161",
+          "ownerHandle": "15B",
+          "layer": "0",
+          "startPoint": {
+            "x": 173.4123120120598,
+            "y": 276.5427115966607,
+            "z": 0
+          },
+          "textHeight": 2.5,
+          "text": "UNDEFINED",
+          "tag": "SIZE",
+          "invisible": true,
+          "constant": false,
+          "verificationRequired": false,
+          "preset": false,
+          "backwards": false,
+          "mirrored": false,
+          "horizontalJustification": 0,
+          "endPoint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
       ]
     }
   ]

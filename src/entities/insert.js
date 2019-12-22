@@ -1,6 +1,7 @@
 
 import * as helpers from '../ParseHelpers'
-import attribHandler from './attrib.js'
+import Attrib from './attrib.js'
+import log from 'loglevel'
 
 export default function EntityParser() {}
 
@@ -51,7 +52,7 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
                 entity.extrusionDirection = helpers.parsePoint(scanner);
                 break;
             case 0:
-              entity.attribs = parseAttribs();
+              entity.attribs = parseAttribs(scanner, curr);
               break;
             default: // check common entity attributes
                 helpers.checkCommonEntityProperties(entity, curr);
@@ -63,8 +64,9 @@ EntityParser.prototype.parseEntity = function(scanner, curr) {
     return entity;
 };
 
-var parseAttribs = function () {
+var parseAttribs = function (scanner, curr) {
     var attribs = [];
+    var attribHandler = new Attrib();
 
     while (true) {
         
@@ -76,7 +78,6 @@ var parseAttribs = function () {
           attrib = attribHandler.parseEntity(scanner, curr);
           curr = scanner.lastReadGroup;
           log.debug('}');
-          ensureHandle(attrib);
           attribs.push(attrib);
       } else {
           // ignored lines from unsupported entity
